@@ -1,7 +1,7 @@
 {
     "root_health+2": {
         "title": {
-            "translate": "puffish_skills.categories.root_mana+25.title"
+            "translate": "+25 Source"
         },
         "frame": {
             "type": "advancement",
