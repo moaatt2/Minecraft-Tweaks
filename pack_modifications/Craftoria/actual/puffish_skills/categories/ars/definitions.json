@@ -1,7 +1,7 @@
 {
     "root_health+2": {
         "title": {
-            "translate": "+25 Source"
+            "translate": "+25 Max Source"
         },
         "frame": {
             "type": "advancement",
@@ -10,9 +10,9 @@
             }
         },
         "icon": {
-            "type": "effect",
+            "type": "item",
             "data": {
-                "effect": "health_boost"
+                "item": "ars_nouveau:thread_magic_capacity"
             }
         },
         "rewards": [
