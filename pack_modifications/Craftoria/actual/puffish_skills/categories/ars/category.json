@@ -1,0 +1,13 @@
+{
+    "unlocked_by_default": true,
+    "title": {
+        "translate": "puffish_skills.category.ars.title"
+    },
+    "icon": {
+        "type": "item",
+        "data": {
+            "item": "ars_nouveau:novice_spell_book"
+        }
+    },
+    "background": "apotheosis:textures/advancements/bg/apoth.png"
+}
