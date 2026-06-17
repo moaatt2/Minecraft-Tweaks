@@ -1,7 +1,7 @@
 {
     "root_health+2": {
         "title": {
-            "translate": "+25 Max Source"
+            "translate": "+5 Max Source"
         },
         "frame": {
             "type": "advancement",
@@ -20,7 +20,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
-                    "value": 25,
+                    "value": 5,
                     "operation": "addition"
                 }
             }
@@ -28,7 +28,7 @@
     },
     "root_resistance+1%": {
         "title": {
-            "translate": "puffish_skills.categories.root_resistance+1%.title"
+            "translate": "Source Regen +10%"
         },
         "frame": {
             "type": "advancement",
@@ -37,17 +37,17 @@
             }
         },
         "icon": {
-            "type": "effect",
+            "type": "item",
             "data": {
-                "effect": "resistance"
+                "item": "ars_nouveau:amulet_of_mana_regen"
             }
         },
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
                 "data": {
-                    "attribute": "puffish_skills:resistance",
-                    "value": 0.01,
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.10,
                     "operation": "multiply_total"
                 }
             }
@@ -55,34 +55,7 @@
     },
     "root_melee_damage+3%": {
         "title": {
-            "translate": "puffish_skills.categories.root_melee_damage+3%.title"
-        },
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "strength"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "puffish_skills:melee_damage",
-                    "value": 0.03,
-                    "operation": "multiply_total"
-                }
-            }
-        ]
-    },
-    "root_ranged_damage+3%": {
-        "title": {
-            "translate": "puffish_skills.categories.root_ranged_damage+3%.title"
+            "translate": "+1 Spell Damage"
         },
         "frame": {
             "type": "advancement",
@@ -93,36 +66,63 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "bow"
+                "item": "ars_nouveau:thread_spellpower"
             }
         },
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
                 "data": {
-                    "attribute": "puffish_skills:ranged_damage",
-                    "value": 0.03,
-                    "operation": "multiply_total"
+                    "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ]
+    },
+    "root_ranged_damage+3%": {
+        "title": {
+            "translate": "+1 Spell Damage"
+        },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "ars_nouveau:thread_spellpower"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+                    "value": 1,
+                    "operation": "addition"
                 }
             }
         ]
     },
     "health+2": {
         "title": {
-            "translate": "puffish_skills.categories.health+2.title"
+            "translate": "+5 Max Source"
         },
         "icon": {
-            "type": "effect",
+            "type": "item",
             "data": {
-                "effect": "health_boost"
+                "item": "ars_nouveau:thread_magic_capacity"
             }
         },
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
                 "data": {
-                    "attribute": "generic.max_health",
-                    "value": 2,
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 5,
                     "operation": "addition"
                 }
             }
@@ -130,146 +130,146 @@
     },
     "resistance+1%": {
         "title": {
-            "translate": "puffish_skills.categories.resistance+1%.title"
+            "translate": "+5 Max Source"
         },
         "icon": {
-            "type": "effect",
+            "type": "item",
             "data": {
-                "effect": "resistance"
+                "item": "ars_nouveau:thread_magic_capacity"
             }
         },
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
                 "data": {
-                    "attribute": "puffish_skills:resistance",
-                    "value": 0.01,
-                    "operation": "multiply_total"
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 5,
+                    "operation": "addition"
                 }
             }
         ]
     },
     "melee_damage+3%": {
         "title": {
-            "translate": "puffish_skills.categories.melee_damage+3%.title"
+            "translate": "+1 Spell Damage"
         },
         "icon": {
-            "type": "effect",
+            "type": "item",
             "data": {
-                "effect": "strength"
+                "item": "ars_nouveau:thread_spellpower"
             }
         },
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
                 "data": {
-                    "attribute": "puffish_skills:melee_damage",
-                    "value": 0.03,
-                    "operation": "multiply_total"
+                    "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+                    "value": 1,
+                    "operation": "addition"
                 }
             }
         ]
     },
     "ranged_damage+3%": {
         "title": {
-            "translate": "puffish_skills.categories.ranged_damage+3%.title"
+            "translate": "+1 Spell Damage"
         },
         "icon": {
             "type": "item",
             "data": {
-                "item": "bow"
+                "item": "ars_nouveau:thread_spellpower"
             }
         },
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
                 "data": {
-                    "attribute": "puffish_skills:ranged_damage",
-                    "value": 0.03,
-                    "operation": "multiply_total"
+                    "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+                    "value": 1,
+                    "operation": "addition"
                 }
             }
         ]
     },
     "attack_speed+5%": {
         "title": {
-            "translate": "puffish_skills.categories.attack_speed+5%.title"
+            "translate": "+5 Max Source"
         },
         "icon": {
             "type": "item",
             "data": {
-                "item": "golden_sword"
+                "item": "ars_nouveau:thread_magic_capacity"
             }
         },
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
                 "data": {
-                    "attribute": "generic.attack_speed",
-                    "value": 0.05,
-                    "operation": "multiply_total"
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 5,
+                    "operation": "addition"
                 }
             }
         ]
     },
     "movement_speed+5%": {
         "title": {
-            "translate": "puffish_skills.categories.movement_speed+5%.title"
+            "translate": "+5 Max Source"
         },
         "icon": {
-            "type": "effect",
+            "type": "item",
             "data": {
-                "effect": "speed"
+                "item": "ars_nouveau:thread_magic_capacity"
             }
         },
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
                 "data": {
-                    "attribute": "generic.movement_speed",
-                    "value": 0.05,
-                    "operation": "multiply_total"
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 5,
+                    "operation": "addition"
                 }
             }
         ]
     },
     "luck+0.25": {
         "title": {
-            "translate": "puffish_skills.categories.luck+0.25.title"
+            "translate": "Source Regen +10%"
         },
         "icon": {
-            "type": "effect",
+            "type": "item",
             "data": {
-                "effect": "luck"
+                "item": "ars_nouveau:amulet_of_mana_regen"
             }
         },
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
                 "data": {
-                    "attribute": "generic.luck",
-                    "value": 0.25,
-                    "operation": "addition"
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.10,
+                    "operation": "multiply_total"
                 }
             }
         ]
     },
     "stamina+5%": {
         "title": {
-            "translate": "puffish_skills.categories.stamina+5%.title"
+            "translate": "Source Regen +10%"
         },
         "icon": {
-            "type": "effect",
+            "type": "item",
             "data": {
-                "effect": "saturation"
+                "item": "ars_nouveau:amulet_of_mana_regen"
             }
         },
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
                 "data": {
-                    "attribute": "puffish_skills:stamina",
-                    "value": 0.05,
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.10,
                     "operation": "multiply_total"
                 }
             }
@@ -277,20 +277,20 @@
     },
     "healing+5%": {
         "title": {
-            "translate": "puffish_skills.categories.healing+5%.title"
+            "translate": "Source Regen +10%"
         },
         "icon": {
-            "type": "effect",
+            "type": "item",
             "data": {
-                "effect": "regeneration"
+                "item": "ars_nouveau:amulet_of_mana_regen"
             }
         },
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
                 "data": {
-                    "attribute": "puffish_skills:healing",
-                    "value": 0.05,
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.10,
                     "operation": "multiply_total"
                 }
             }
@@ -298,20 +298,20 @@
     },
     "jump+5%": {
         "title": {
-            "translate": "puffish_skills.categories.jump+5%.title"
+            "translate": "Source Regen +10%"
         },
         "icon": {
-            "type": "effect",
+            "type": "item",
             "data": {
-                "effect": "jump_boost"
+                "item": "ars_nouveau:amulet_of_mana_regen"
             }
         },
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
                 "data": {
-                    "attribute": "puffish_skills:jump",
-                    "value": 0.05,
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.10,
                     "operation": "multiply_total"
                 }
             }
