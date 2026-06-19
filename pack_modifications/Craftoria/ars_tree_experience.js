@@ -4,7 +4,8 @@ console.log("============ Ars Debug Script Loaded ============")
 const XP_VALUES = {
     "ars_nouveau:novice_spell_book": 5,
     "ars_nouveau:apprentice_spell_book": 10,
-    "ars_nouveau:archmage_spell_book": 20
+    "ars_nouveau:archmage_spell_book": 20,
+    "not_enough_glyphs:spell_binder": 10
 }
 
 ItemEvents.rightClicked(event => {
