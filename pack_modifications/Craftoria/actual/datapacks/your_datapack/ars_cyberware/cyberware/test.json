@@ -1,0 +1,15 @@
+{
+  "item": "minecraft:diamond",
+  "slot": "HEART",
+  "essence": 0,
+  "max_install": 5,
+  "quality": 1,
+  "body_part": "NONE",
+  "attributes": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "amount": 4,
+      "operation": "ADD_VALUE"
+    }
+  ]
+}
