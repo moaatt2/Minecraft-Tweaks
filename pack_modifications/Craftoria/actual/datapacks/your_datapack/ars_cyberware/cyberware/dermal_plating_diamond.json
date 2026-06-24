@@ -1,0 +1,25 @@
+{
+  "item": "kubejs:dermal_plating_diamond",
+  "slot": "SKIN",
+  "essence": 5,
+  "max_install": 4,
+  "quality": 1,
+  "body_part": "NONE",
+  "attributes": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "amount": 5,
+      "operation": "ADD_VALUE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "amount": 2,
+      "operation": "ADD_VALUE"
+    }
+  ],
+  "incompatible": [
+    "kubejs:dermal_plating_gold",
+    "kubejs:dermal_plating_iron",
+    "kubejs:dermal_plating_netherite"
+  ]
+}
