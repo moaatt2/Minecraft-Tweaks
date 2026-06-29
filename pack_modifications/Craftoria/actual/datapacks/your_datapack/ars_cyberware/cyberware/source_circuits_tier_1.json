@@ -1,0 +1,22 @@
+{
+  "item": "kubejs:source_circuits_tier_1",
+  "slot": "BONES",
+  "essence": 0,
+  "max_install": 1,
+  "quality": 1,
+  "body_part": "NONE",
+  "attributes": [
+    {
+      "attribute": "ars_nouveau:sauce.perk.mana_discount",
+      "amount": 5,
+      "operation": "ADD_VALUE"
+    }
+  ],
+  "incompatible": [
+    "kubejs:source_circuits_tier_2",
+    "kubejs:source_circuits_tier_3",
+    "kubejs:source_circuits_tier_4",
+    "kubejs:source_circuits_tier_5",
+    "kubejs:source_circuits_tier_6"
+  ]
+}
