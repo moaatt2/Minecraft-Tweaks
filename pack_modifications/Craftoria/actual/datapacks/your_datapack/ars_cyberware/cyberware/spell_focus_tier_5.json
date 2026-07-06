@@ -1,0 +1,22 @@
+{
+  "item": "kubejs:spell_focus_tier_5",
+  "slot": "HANDS",
+  "essence": 0,
+  "max_install": 1,
+  "quality": 5,
+  "body_part": "NONE",
+  "attributes": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+      "amount": 16,
+      "operation": "ADD_VALUE"
+    }
+  ],
+  "incompatible": [
+    "kubejs:spell_focus_tier_1",
+    "kubejs:spell_focus_tier_2",
+    "kubejs:spell_focus_tier_3",
+    "kubejs:spell_focus_tier_4",
+    "kubejs:spell_focus_tier_6"
+  ]
+}
