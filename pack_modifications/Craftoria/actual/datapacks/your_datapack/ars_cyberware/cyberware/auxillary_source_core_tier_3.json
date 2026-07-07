@@ -1,0 +1,22 @@
+{
+  "item": "kubejs:auxillary_source_core_tier_3",
+  "slot": "HEART",
+  "essence": 0,
+  "max_install": 1,
+  "quality": 3,
+  "body_part": "NONE",
+  "attributes": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "amount": 1.50,
+      "operation": "ADD_MULTIPLIED_TOTAL"
+    }
+  ],
+  "incompatible": [
+    "kubejs:auxillary_source_core_tier_1",
+    "kubejs:auxillary_source_core_tier_2",
+    "kubejs:auxillary_source_core_tier_4",
+    "kubejs:auxillary_source_core_tier_5",
+    "kubejs:auxillary_source_core_tier_6"
+  ]
+}
