@@ -1,0 +1,22 @@
+{
+  "item": "kubejs:source_capacitor_tier_5",
+  "slot": "STOMACH",
+  "essence": 0,
+  "max_install": 1,
+  "quality": 5,
+  "body_part": "NONE",
+  "attributes": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "amount": 2.50,
+      "operation": "ADD_MULTIPLIED_TOTAL"
+    }
+  ],
+  "incompatible": [
+    "kubejs:source_capacitor_tier_1",
+    "kubejs:source_capacitor_tier_2",
+    "kubejs:source_capacitor_tier_3",
+    "kubejs:source_capacitor_tier_4",
+    "kubejs:source_capacitor_tier_6"
+  ]
+}
