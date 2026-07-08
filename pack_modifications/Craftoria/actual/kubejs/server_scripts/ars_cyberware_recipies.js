@@ -261,4 +261,78 @@ ServerEvents.recipes(event => {
         16000, // source cost
     )
 
+    ////////////////////////
+    /// Source Capacitor ///
+    ////////////////////////
+
+    event.shaped('kubejs:source_capacitor_tier_1', [
+        ' I ',
+        'ACA',
+        ' A '
+    ], {
+        I: 'minecraft:iron_ingot',
+        A: 'minecraft:amethyst_shard',
+        C: 'minecraft:cauldron'
+    })
+
+    ars.enchantingApparatus(
+        'kubejs:source_capacitor_tier_2', // output
+        'kubejs:source_capacitor_tier_1', // center item
+        [ // Pedestal items
+            'minecraft:gold_ingot',
+            'ars_nouveau:source_gem',
+            'ars_nouveau:source_gem',
+            'ars_nouveau:source_gem'
+        ],
+        1000, // source cost
+    )
+
+    ars.enchantingApparatus(
+        'kubejs:source_capacitor_tier_3', // output
+        'kubejs:source_capacitor_tier_2', // center item
+        [ // Pedestal items
+            'minecraft:blaze_rod',
+            'minecraft:blaze_rod',
+            'minecraft:blaze_rod',
+            'minecraft:blaze_rod'
+        ],
+        2000, // source cost
+    )
+
+    ars.enchantingApparatus(
+        'kubejs:source_capacitor_tier_4', // output
+        'kubejs:source_capacitor_tier_3', // center item
+        [ // Pedestal items
+            'minecraft:ender_pearl',
+            'minecraft:chorus_fruit',
+            'minecraft:ender_pearl',
+            'minecraft:chorus_fruit'
+        ],
+        4000, // source cost
+    )
+
+    ars.enchantingApparatus(
+        'kubejs:source_capacitor_tier_5', // output
+        'kubejs:source_capacitor_tier_4', // center item
+        [ // Pedestal items
+            'minecraft:dragon_egg',
+            'minecraft:nether_star',
+            'minecraft:dragon_breath',
+            'minecraft:nether_star'
+        ],
+        8000, // source cost
+    )
+
+    ars.enchantingApparatus(
+        'kubejs:source_capacitor_tier_6', // output
+        'kubejs:source_capacitor_tier_5', // center item
+        [ // Pedestal items
+            'minecraft:sculk_catalyst',
+            'minecraft:echo_shard',
+            'minecraft:sculk_catalyst',
+            'minecraft:echo_shard'
+        ],
+        16000, // source cost
+    )
+
 })
