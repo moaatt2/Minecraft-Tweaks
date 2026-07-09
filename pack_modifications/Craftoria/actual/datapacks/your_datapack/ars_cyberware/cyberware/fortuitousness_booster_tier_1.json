@@ -1,0 +1,22 @@
+{
+  "item": "kubejs:fortuitousness_booster_tier_1",
+  "slot": "BOOTS",
+  "essence": 0,
+  "max_install": 1,
+  "quality": 1,
+  "body_part": "NONE",
+  "attributes": [
+    {
+      "attribute": "ars_nouveau:sauce.perk.spell_crit_damage_modifier",
+      "amount": 1.0,
+      "operation": "ADD_VALUE"
+    }
+  ],
+  "incompatible": [
+    "kubejs:fortuitousness_booster_tier_2",
+    "kubejs:fortuitousness_booster_tier_3",
+    "kubejs:fortuitousness_booster_tier_4",
+    "kubejs:fortuitousness_booster_tier_5",
+    "kubejs:fortuitousness_booster_tier_6"
+  ]
+}
