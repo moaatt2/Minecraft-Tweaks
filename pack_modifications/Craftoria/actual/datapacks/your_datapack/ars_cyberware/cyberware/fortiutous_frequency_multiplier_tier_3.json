@@ -1,0 +1,22 @@
+{
+  "item": "kubejs:fortiutous_frequency_multiplier_tier_3",
+  "slot": "EYES",
+  "essence": 0,
+  "max_install": 1,
+  "quality": 3,
+  "body_part": "NONE",
+  "attributes": [
+    {
+      "attribute": "ars_nouveau:sauce.perk.spell_crit_chance",
+      "amount": 0.20,
+      "operation": "ADD_VALUE"
+    }
+  ],
+  "incompatible": [
+    "kubejs:fortiutous_frequency_multiplier_tier_1",
+    "kubejs:fortiutous_frequency_multiplier_tier_2",
+    "kubejs:fortiutous_frequency_multiplier_tier_4",
+    "kubejs:fortiutous_frequency_multiplier_tier_5",
+    "kubejs:fortiutous_frequency_multiplier_tier_6"
+  ]
+}
